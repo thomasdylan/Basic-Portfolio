@@ -4,11 +4,8 @@ body {
     background-image: url("../images/papyrus.png");
 }
 h1 {
-    background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float: left;
     color: white;
-    margin-left: 25%;
 }
 h2 {
     margin-left: 10px;
@@ -20,13 +17,17 @@ p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    color: #777777;
+    text-decoration: none;
+}
 hr {
     color: #777777;
     width: 95%;
 }
 .mainHeader {
     background: #ffffff;
-    border-color: #cccccc;
+    border-bottom: 2px solid #cccccc;
     text-align: center;
     overflow: hidden;
     margin-bottom: 20px;
@@ -44,11 +45,17 @@ hr {
     flex-wrap: wrap;
 }
 .links {
-    float: right;
-    padding: 15px;
+    float: right; 
+    margin-top: 45px;
     margin-right: 25%;
     color: #777777;
+    text-align: center;
 }
 .links a {
     padding: 15px;
+}
+.name {
+    background: #4aaaa5;
+    float: left;
+    margin-left: 25%;
 }
