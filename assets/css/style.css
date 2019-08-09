@@ -6,26 +6,49 @@ body {
 h1 {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    color: white;
+    margin-left: 25%;
+}
+h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #4aaaa5;
+    font-size: 36px;
 }
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
-#mainHeader {
+hr {
+    color: #777777;
+    width: 95%;
+}
+.mainHeader {
     background: #ffffff;
     border-color: #cccccc;
     text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 #footer {
     background: #666666;
 }
 .mainContent {
     background: #ffffff;
+    border-width: 3px;
+    border-style: solid;
     border-color: #dddddd;
     max-width: 960px;
     margin: auto;
     flex-wrap: wrap;
 }
-.floatLeft {
-    float: left;
+.links {
+    float: right;
+    padding: 15px;
+    margin-right: 25%;
+    color: #777777;
+}
+.links a {
+    padding: 15px;
 }
