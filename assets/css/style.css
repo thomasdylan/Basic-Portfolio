@@ -90,12 +90,22 @@ a {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 960px;
-    margin: auto;
-    padding-right: 10px;
+    padding: 0 0 10px 50px;
 }
 
 .input {
     margin: auto;
     width: 90%;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+#submitButton {
+    background: #4aaaa5;
+    color: white;
+    font-size: 100%;
+    border: 3px solid #777777;
+    padding: 10px;
+    width: 10%;
+    height: 10%;
 }
