@@ -3,18 +3,23 @@ body {
     padding: 0;
     background-image: url("../images/papyrus.png");
 }
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
+
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
 }
+
 a {
     color: #777777;
     text-decoration: none;
 }
+
 .mainHeader {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -22,6 +27,7 @@ a {
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 .footer {
     background: #666666;
     position: absolute;
@@ -34,6 +40,7 @@ a {
     padding-top: 10px;
     border-top: 8px solid #4aaaa5;
 }
+
 .mainContent {
     background: #ffffff;
     border-width: 3px;
@@ -41,33 +48,39 @@ a {
     border-color: #dddddd;
     max-width: 960px;
     margin: auto;
-    flex-wrap: wrap;
 }
+
 .topContent hr {
     color: #777777;
     width: 95%;
 }
+
 .topContent h2 {
     margin-left: 10px;
     margin-top: 10px;
     color: #4aaaa5;
     font-size: 36px;
 }
-.mainContent p {
-    clear: both;
-}
+
 .links {
-    float: right; 
+    float: right;
     margin-top: 45px;
     margin-right: 25%;
     color: #777777;
     text-align: center;
 }
+
 .links a {
     padding: 15px;
 }
+
 .name {
     background: #4aaaa5;
     float: left;
     margin-left: 25%;
+}
+
+.imageFloat {
+    margin-right: 5px;
+    float: left;
 }
